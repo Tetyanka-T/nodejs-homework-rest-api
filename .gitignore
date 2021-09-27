@@ -1,1 +1,7 @@
-node_modules
+.vscode/
+.idea/
+.env
+package-lock.json
+yarn.lock
+yarn.error
+node_modules/
