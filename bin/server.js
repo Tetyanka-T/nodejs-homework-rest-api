@@ -4,7 +4,7 @@ const app = require('../app');
 
 dotenv.config();
 
-const { DB_HOST, PORT = 3000 } = process.env;
+const { DB_HOST, PORT = 3000, SENDGRID_KEY } = process.env;
 
 mongoose
   .connect(DB_HOST)
